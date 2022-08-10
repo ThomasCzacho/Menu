@@ -4,7 +4,7 @@ const dish = [
       title: 'buttermilk pancakes',
       category: 'breakfast',
       price: 15.99,
-      img: './images/item-1.jpeg',
+      src: 'https://lh3.googleusercontent.com/J80mzkJpPkmP1mp7AIqWJNaBCvD6Z8ClekO2OQ-m7VETKfj_d2mvA3IaV8KTL4cxOf_NBA=s139',
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
     {
@@ -12,7 +12,7 @@ const dish = [
       title: 'diner double',
       category: 'lunch',
       price: 13.99,
-      img: './images/item-2.jpeg',
+      src: 'https://lh3.googleusercontent.com/3MQkt8fDffagqFhvAWEKUdLvAfqrJ5XE9rf6Ow31LQsRFZ2cWof7rlhnpXmN0acuY9rG=s128',
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
     },
     {
@@ -20,7 +20,7 @@ const dish = [
       title: 'godzilla milkshake',
       category: 'shakes',
       price: 6.99,
-      img: './images/item-3.jpeg',
+      src: 'https://lh3.googleusercontent.com/gLiRSW_9cG4OB4iyFkWesWNdwWv7CuJxYqJVofRwxP5g8lRwJj6a5NV00-ieEEhsmYD2Bg=s85',
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
@@ -28,7 +28,7 @@ const dish = [
       title: 'country delight',
       category: 'breakfast',
       price: 20.99,
-      img: './images/item-4.jpeg',
+      src: 'https://lh3.googleusercontent.com/Q3YIBl_K-sLnuc7eQxAGYh6qN7bDRcYYU1joCUk6wh2wPLtID7GHzea6l0NRS-LwV7VWOQ=s128',
       desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
     },
     {
@@ -36,7 +36,7 @@ const dish = [
       title: 'egg attack',
       category: 'lunch',
       price: 22.99,
-      img: './images/item-5.jpeg',
+      src: 'https://pbs.twimg.com/media/DcSPCPSX0AE8Bg2?format=jpg&name=4096x4096',
       desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
     },
     {
@@ -44,7 +44,7 @@ const dish = [
       title: 'oreo dream',
       category: 'shakes',
       price: 18.99,
-      img: './images/item-6.jpeg',
+      src: 'https://lh3.googleusercontent.com/YiGFm1g6BgB1oJm3JShZmLZFgNAiDLmw_DIQKTV6Y8FdrecQ2Rnetavf7vBMRxKdtGJTQw=s128',
       desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
     },
     {
@@ -52,7 +52,7 @@ const dish = [
       title: 'bacon overflow',
       category: 'breakfast',
       price: 8.99,
-      img: './images/item-7.jpeg',
+      src: 'https://lh3.googleusercontent.com/TAt7BhAM1g3hBxilMYPh73xqzbdD8tDONwb8PgpDzTWK2hXQX-FMormmOsl9M3LKwNEAew=s128',
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
     {
@@ -60,7 +60,7 @@ const dish = [
       title: 'american classic',
       category: 'lunch',
       price: 12.99,
-      img: './images/item-8.jpeg',
+      src: 'https://lh3.googleusercontent.com/Sdpx1D_uUUUVE5Mc6qlUOzmxvvrStZRsUcRmrfIR5a9IKZEIXzHRUheH-UxvYSolXvQTEw=s128',
       desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
     },
     {
@@ -68,7 +68,7 @@ const dish = [
       title: 'quarantine buddy',
       category: 'shakes',
       price: 16.99,
-      img: './images/item-9.jpeg',
+      src: 'https://lh3.googleusercontent.com/ZlauGU5XOLilXcU4zmSVRdFWyxNXZdocYYMuokdRtYlk4zLjzJ3Z_5LxSsGlgFHymlPzLg=s128',
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
   ];

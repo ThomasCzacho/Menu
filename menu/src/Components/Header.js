@@ -4,40 +4,72 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import { Divider } from '@mui/material';
+import Link from '@mui/material';
+import Grid from '@mui/material/Grid';
+import Stack from '@mui/material/Stack';
+import Avatar from '@mui/material/Avatar';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-const sections = [
-    { title: 'Home Page', url: '#' },
-    { title: 'Second Page', url: '#' },
-    { title: 'Third Page', url: '#' },
-    { title: 'Business', url: '#' },
-    { title: 'Politics', url: '#' },
-    { title: 'Opinion', url: '#' },
-    { title: 'Science', url: '#' },
-    { title: 'Health', url: '#' },
-    { title: 'Style', url: '#' },
-    { title: 'Travel', url: '#' },
-  ];
+const theme = createTheme({
+  status: {
+    danger: '#e53e3e',
+  },
+  borderColor: '#ffed00',
+  palette: {
+    primary: {
+      main: '#102b42',
+      darker: '#E3000B',
+    },
+    neutral: {
+      main: '#64748B',
+      contrastText: '#fff',
+    },
+    secondary: {
+      main: '#c59d5f',
+      darker: '#ffed00',
+    },
+    paypal: {
+      main: '#00457C',
+      darker: '#ffed00',
+    },
+    borderColor: '#ffed00',
+  },
+})
 
 const Header = () => {
   return (
-    <Header title="Our Menu" sections={sections} />,
-  <AppBar
-        align="center"
-        position="absolute"
-        color="secondary"
-        elevation={0}
-        sx={{
-          position: 'relative',
-          borderTop: (t) => `1px solid ${t.palette.divider}`,
-        }}
-        >
-    Our Menu
-    <Toolbar align="center">
+    
+    <Stack>
+      <ThemeProvider theme={theme}>
+    <Typography align='center' variant="h4" color="primary">Our Menu</Typography>
+    </ThemeProvider>
+    <Grid alignSelf='center' width={80}>
+    <Box alignSelf='center'
+    sx={{
+      width: 90,
+      height: 4,
+      backgroundColor: '#c59d5f' }} />
+    </Grid>
+    
+    <Grid alignSelf='center'>
+    <Stack direction='row' align="center">
+      <Button >All</Button>
+      <Button>Breakfast</Button>
+      <Button>Lunch</Button>
+      <Button>Shakes</Button>
     
     
-    </Toolbar>
-    </AppBar>
+    </Stack>
+    </Grid>
+    <Divider />
+    </Stack>
+    
+
+ 
     )
 };
+
+
 
 export default Header;
