@@ -4,9 +4,25 @@ import { Stack, Typography } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import makeStyles from '@mui/material/styles/makeStyles';
+import "/workspace/Menu/menu/src/index.css";
 
-const styles = { borderColor: "#c59d5f", };
 
+const styles = {
+   borderColor: "#c59d5f",
+   container: {
+  display: "flex",
+  flexFlow: "column wrap",
+  gap: "0 30px",
+  backgroundColor: "pink",
+  height: 1200,
+  overflow: "auto"
+},
+ };
+
+ 
 const theme = createTheme({
   status: {
     danger: '#e53e3e',
@@ -42,9 +58,12 @@ const Menu = ({menu}) => {
       
       return (
         <ThemeProvider theme={theme}>
-        <Grid container spacing={2} margin={4} item xs={4}>
-        <article key={id} className="dish" margin={2}>
-          <Grid width="400" height="110">
+        <Grid  spacing={2} margin={2} item xs={4} overflow='auto' flexFlow='column-wrap' display='flex'>
+  
+    <ListItem key={id} style={styles} maxHeight={100} container className='menu-item'>
+        
+
+          <Grid width={450} height={100}>
           <Stack direction='row' spacing={2}> 
           <img src={src} alt={title} width="150" height="100" border={4} style={styles}/>
           <Stack direction='column'>
@@ -63,7 +82,10 @@ const Menu = ({menu}) => {
           </Stack>
           </Stack>
           </Grid>
-        </article>
+          
+          
+    </ListItem>
+    
         </Grid>
         </ThemeProvider>
       );

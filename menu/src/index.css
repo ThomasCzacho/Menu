@@ -161,6 +161,16 @@ Menu
   display: flex;
   justify-content: center;
 }
+
+.columnwrap {
+  display: flex;
+  flex-Flow: column wrap;
+  gap: 0 30px;
+  height: 900;
+  overflow: auto; 
+  align-self: left;
+}
+
 .filter-btn {
   background: transparent;
   border-color: transparent;
@@ -190,6 +200,7 @@ Menu
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
+  
 }
 .photo {
   object-fit: cover;

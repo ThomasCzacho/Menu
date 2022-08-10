@@ -1,7 +1,7 @@
 const dish = [
     {
       id: 1,
-      title: 'buttermilk pancakes',
+      title: 'Buttermilk pancakes',
       category: 'breakfast',
       price: 15.99,
       src: 'https://lh3.googleusercontent.com/J80mzkJpPkmP1mp7AIqWJNaBCvD6Z8ClekO2OQ-m7VETKfj_d2mvA3IaV8KTL4cxOf_NBA=s139',
@@ -9,7 +9,7 @@ const dish = [
     },
     {
       id: 2,
-      title: 'diner double',
+      title: 'Diner Double',
       category: 'lunch',
       price: 13.99,
       src: 'https://lh3.googleusercontent.com/3MQkt8fDffagqFhvAWEKUdLvAfqrJ5XE9rf6Ow31LQsRFZ2cWof7rlhnpXmN0acuY9rG=s128',
@@ -17,7 +17,7 @@ const dish = [
     },
     {
       id: 3,
-      title: 'godzilla milkshake',
+      title: 'Godzilla Milkshake',
       category: 'shakes',
       price: 6.99,
       src: 'https://lh3.googleusercontent.com/gLiRSW_9cG4OB4iyFkWesWNdwWv7CuJxYqJVofRwxP5g8lRwJj6a5NV00-ieEEhsmYD2Bg=s85',
@@ -25,7 +25,7 @@ const dish = [
     },
     {
       id: 4,
-      title: 'country delight',
+      title: 'Country Delight',
       category: 'breakfast',
       price: 20.99,
       src: 'https://lh3.googleusercontent.com/Q3YIBl_K-sLnuc7eQxAGYh6qN7bDRcYYU1joCUk6wh2wPLtID7GHzea6l0NRS-LwV7VWOQ=s128',
@@ -33,7 +33,7 @@ const dish = [
     },
     {
       id: 5,
-      title: 'egg attack',
+      title: 'Egg Attack',
       category: 'lunch',
       price: 22.99,
       src: 'https://pbs.twimg.com/media/DcSPCPSX0AE8Bg2?format=jpg&name=4096x4096',
@@ -41,7 +41,7 @@ const dish = [
     },
     {
       id: 6,
-      title: 'oreo dream',
+      title: 'Oreo Dream',
       category: 'shakes',
       price: 18.99,
       src: 'https://lh3.googleusercontent.com/YiGFm1g6BgB1oJm3JShZmLZFgNAiDLmw_DIQKTV6Y8FdrecQ2Rnetavf7vBMRxKdtGJTQw=s128',
@@ -49,7 +49,7 @@ const dish = [
     },
     {
       id: 7,
-      title: 'bacon overflow',
+      title: 'Bacon Overflow',
       category: 'breakfast',
       price: 8.99,
       src: 'https://lh3.googleusercontent.com/TAt7BhAM1g3hBxilMYPh73xqzbdD8tDONwb8PgpDzTWK2hXQX-FMormmOsl9M3LKwNEAew=s128',
@@ -57,7 +57,7 @@ const dish = [
     },
     {
       id: 8,
-      title: 'american classic',
+      title: 'American Classic',
       category: 'lunch',
       price: 12.99,
       src: 'https://lh3.googleusercontent.com/Sdpx1D_uUUUVE5Mc6qlUOzmxvvrStZRsUcRmrfIR5a9IKZEIXzHRUheH-UxvYSolXvQTEw=s128',
@@ -65,7 +65,7 @@ const dish = [
     },
     {
       id: 9,
-      title: 'quarantine buddy',
+      title: 'Quarantine Buddy',
       category: 'shakes',
       price: 16.99,
       src: 'https://lh3.googleusercontent.com/ZlauGU5XOLilXcU4zmSVRdFWyxNXZdocYYMuokdRtYlk4zLjzJ3Z_5LxSsGlgFHymlPzLg=s128',
